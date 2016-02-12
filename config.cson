@@ -18,6 +18,8 @@
   "fuzzy-finder": {}
   minimap: {}
   "one-dark-ui": {}
+  script:
+    stopOnRerun: true
   "spell-check": {}
   "status-bar": {}
   tabs:
