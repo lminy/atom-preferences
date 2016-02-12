@@ -1,17 +1,23 @@
 "*":
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "spell-check"
+    ]
     ignoredNames: [
       "*.class"
     ]
   editor:
     invisibles: {}
+    softWrap: true
+    tabLength: 4
   "exception-reporting":
     userId: "711c869f-7170-8329-b0d3-d0bf1cb79a10"
   "file-icons": {}
   "fuzzy-finder": {}
   minimap: {}
   "one-dark-ui": {}
+  "spell-check": {}
   tabs:
     tabScrolling: true
     usePreviewTabs: true

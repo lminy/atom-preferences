@@ -10,5 +10,8 @@
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
 
+
+# LM
+# Test
 atom.commands.add 'atom-workspace', 'dot-atom:demo', ->
   console.log "Hello from dot-atom:demo"
