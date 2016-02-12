@@ -9,6 +9,7 @@
     ]
   editor:
     invisibles: {}
+    softTabs: false
     softWrap: true
     tabLength: 4
   "exception-reporting":
@@ -18,6 +19,7 @@
   minimap: {}
   "one-dark-ui": {}
   "spell-check": {}
+  "status-bar": {}
   tabs:
     tabScrolling: true
     usePreviewTabs: true

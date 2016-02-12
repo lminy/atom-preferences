@@ -34,18 +34,19 @@ atom-text-editor::shadow .cursor {
 
 // LM
 
-atom-text-editor::shadow span.variable.parameter.scala {
-  color: #be5046;
+@dark-red: #be5046;
+@dark-orange : #e5c07b;
+
+// Color of parameters in Scala
+atom-text-editor::shadow span {
+    .variable.parameter.scala, .source.embedded.scala {
+        color: @dark-red;
+    }
 }
 
-atom-text-editor::shadow span.source.embedded.scala {
-  color: #be5046;
-}
-
-atom-text-editor::shadow span.storage.type.scala {
-  color: #e5c07b;
-}
-
-atom-text-editor::shadow span.class {
-  color: #e5c07b;
+// Color of types in Scala
+atom-text-editor::shadow span {
+    .storage.type.scala, .class {
+        color: @dark-orange;
+    }
 }
