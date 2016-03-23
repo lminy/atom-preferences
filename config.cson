@@ -1,4 +1,6 @@
 "*":
+  "api-docs":
+    _theme: "Dark"
   core:
     autoHideMenuBar: true
     disabledPackages: [
@@ -8,6 +10,7 @@
       "*.class"
     ]
   editor:
+    fontSize: 13
     invisibles: {}
     softTabs: false
     softWrap: true
@@ -27,5 +30,6 @@
     usePreviewTabs: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false

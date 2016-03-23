@@ -36,3 +36,6 @@
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-shift-B': 'fuzzy-finder:toggle-git-status-finder'
+
+'atom-text-editor':
+  'alt-d': 'api-docs:search-under-cursor'
