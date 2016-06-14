@@ -10,7 +10,6 @@
       "*.class"
     ]
   editor:
-    fontSize: 13
     invisibles: {}
     softTabs: false
     softWrap: true
@@ -19,6 +18,8 @@
     userId: "711c869f-7170-8329-b0d3-d0bf1cb79a10"
   "file-icons": {}
   "fuzzy-finder": {}
+  linter:
+    errorPanelHeight: 307
   minimap: {}
   "one-dark-ui": {}
   script:
@@ -33,3 +34,29 @@
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+".beamer.latex.tex.text":
+  editor:
+    tabLength: 4
+".bibtex.text":
+  editor:
+    tabLength: 4
+".latex.log.text":
+  editor:
+    tabLength: 4
+".latex.memoir.tex.text":
+  editor:
+    tabLength: 4
+".latex.tex.text":
+  editor:
+    tabLength: 4
+".tex.text":
+  editor:
+    tabLength: 4
+"linter-chktex":
+  chktexArgs: [
+    "-wall"
+    "-n22"
+    "-n30"
+    "-e16"
+  ]
+  executablePath: "C:\\texlive\\2016\\bin\\win32\\chktex.exe"

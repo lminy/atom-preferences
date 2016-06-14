@@ -39,3 +39,7 @@
 
 'atom-text-editor':
   'alt-d': 'api-docs:search-under-cursor'
+
+# To handle the problem with the [ that doesn't appear
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-alt-]': 'unset!'
