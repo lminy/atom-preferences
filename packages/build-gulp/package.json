@@ -1,6 +1,6 @@
 {
   "name": "build-gulp",
-  "version": "0.9.0",
+  "version": "0.11.0",
   "description": "Runs gulp targets",
   "repository": {
     "type": "git",
@@ -40,10 +40,10 @@
     "url": "https://github.com/AtomBuild/atom-build-gulp/issues"
   },
   "homepage": "https://github.com/AtomBuild/atom-build-gulp#readme",
-  "_id": "build-gulp@0.9.0",
-  "_shasum": "028f2eaebe61737bda4fcd85a45f8f3d1e418be1",
-  "_resolved": "file:..\\d-116511-11232-1ujsehk\\package.tgz",
-  "_from": "..\\d-116511-11232-1ujsehk\\package.tgz",
+  "_id": "build-gulp@0.11.0",
+  "_shasum": "f9bb331c2b41fcd9fb8d7fbdb7a5180e97811a21",
+  "_resolved": "file:..\\d-116619-13248-17k58o2\\package.tgz",
+  "_from": "..\\d-116619-13248-17k58o2\\package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],

@@ -44,6 +44,7 @@ export function provideBuilder() {
           sh: false,
           args: args,
           env: {
+            NODE_ENV: '',
             FORCE_COLOR: '1'
           }
         };
@@ -60,6 +61,11 @@ export function provideBuilder() {
           cwd: this.cwd
         }, (error, stdout, stderr) => {
           if (error !== null) {
+            atom.notifications.addError('Failed to parse gulpfile to parse gulpfile for targets', {
+              detail: (stdout ? 'Output:\n' + stdout + '\n' : '') + 'Error:\n' + stderr,
+              dismissable: true,
+              icon: 'bug'
+            });
             return resolve([ createConfig('Gulp: default', [ 'default' ]) ]);
           }
 

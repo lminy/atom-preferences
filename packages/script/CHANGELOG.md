@@ -1,3 +1,42 @@
+## 3.8.2
+
+* Support for Lua (WoW)
+
+## 3.8.1
+
+* Fix compilation errors
+
+## 3.8.0
+
+* Support for C/C++ on Windows (only latest win10 builds with `bash` and `g++` installed)
+* Support for Fortran
+* Support for `Inno Setup`
+* Support for Tcl
+* Use `cmd.exe` for `Batch` files
+* Change `stata` intrepreter to `stata`
+
+## 3.7.3
+
+* Support for Stata
+* Support for MATLAB
+
+## 3.7.2
+
+* Support Rust on Windows
+
+## 3.7.1
+
+* Support for Ansible playbooks
+
+## 3.7.0
+
+* Adapt script for tests in go
+* Support Jolie language
+* Keep Java runner within same console on Windows
+* Option to ignore selection runs
+* Fix C++ not running on Linux
+* Fix OCaml support
+
 ## 3.6.3
 
 * Fix bug prevents the package from disabling and updating
