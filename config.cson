@@ -1,6 +1,11 @@
 "*":
   "api-docs":
     _theme: "Dark"
+  "atom-beautify":
+    general:
+      _analyticsUserId: "28003340-2ec3-4fe3-bce0-feb88dd60f30"
+    php:
+      cs_fixer_path: "~/.composer/vendor/bin/php-cs-fixer"
   core:
     autoHideMenuBar: true
     disabledPackages: [
@@ -9,11 +14,14 @@
     ignoredNames: [
       "*.class"
     ]
+    telemetryConsent: "limited"
   editor:
+    fontSize: 13
     invisibles: {}
     softTabs: false
     softWrap: true
     tabLength: 4
+    tabType: "hard"
   "exception-reporting":
     userId: "711c869f-7170-8329-b0d3-d0bf1cb79a10"
   "file-icons": {}
